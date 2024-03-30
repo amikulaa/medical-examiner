@@ -1,0 +1,606 @@
+/* Medical Examiner Style Sheet >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* Color >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* Purple
+#F0EAD2; champagne
+#D1ABF2; mauve purple
+*/
+body, .tb tr:hover, #error_message, .hide-me {
+	background-color: #f2efe1; /* CHAMPAGNE */
+}
+
+.navigation a, .btn, .tb th, .dropdown-content1, .dropdown-content2, .dropdown-content3,
+	#form-section-header, #report-form-section-header, .dropbtn1, .dropbtn2, .dropbtn3,
+	.add-supp-report, .add-doc-track-button, .add-evidence-button,
+	.add-med-button, .add-filter-button, .user-option-button {
+	background-color: #dbbff2; /* MAUVE PURPLE */
+}
+
+.inner_tabs a:hover, .todo_button:hover, #add-task-button:hover,
+	.user_option_button:hover, .case_print_all_button:hover, .prev, .next {
+	color: #dbbff2; /* MAUVE PURPLE */
+}
+
+input, select, textarea, .tb tr, input[type=checkbox] {
+	background-color: #FFFFFF;
+}
+
+.btn:hover {
+	background-color: #454545;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  color: #454545;
+}
+
+.navigation a:hover, .btn:hover, .dropbtn1:hover, .dropbtn2:hover, .dropbtn3:hover,
+	.dropdown-content1 a:hover, .dropdown-content2 a:hover, .dropdown-content3 a:hover,
+	.add-doc-track-button:hover, .add-evidence-button:hover,
+	.add-med-button:hover, .add-supp-report:hover, .add-filter-button:hover, .user-option-button:hover
+	{
+	color: #FFFFFF;
+}
+
+body, .navigation a, .dropbtn1, .dropbtn2, .dropbtn3, .dropdown-content1 a,
+	.dropdown-content2 a, .dropdown-content3 a, .tb th, .btn, .add-supp-report,
+	.add-doc-track-button, .add-evidence-button, .add-med-button,
+	.user-option-button, .inner_tabs a, .faqs_tabs a, .add-filter-button, #case_table a, #report a {
+	color: #454545;
+}
+
+#table_type_report_container .tb td {
+	background-color: #dbbff2; /* MAUVE PURPLE */
+}
+
+#new_filter{
+	background-color: #F5EEFC;
+}
+
+#new_filter table.tb tr:hover{
+	background-color: #dbbff2; /* MAUVE PURPLE */
+}
+
+/* Default Webpage CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+body {
+	font-family: Georgia, sans-serif;
+	font-size: 14px;
+	margin: 40px;
+}
+
+.container {
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.footer {
+	border-radius: 3px;
+	font-size: 11px;
+}
+
+input {
+	border: 0;
+	padding: 5px 10px;
+	margin: 10px;
+	display: table-cell;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+select {
+	margin: 10px;
+	cursor: pointer;
+	height: 35px;
+	border-radius: 5px;
+}
+
+label {
+	padding-right: 10px;
+	font-weight: 500;
+}
+
+header {
+	justify-content: center;
+	align-content: center;
+}
+
+p {
+	margin: 0;
+}
+
+textarea {
+	width: 100%;
+	border-radius: 5px;
+}
+
+#time {
+	text-align: right;
+}
+
+/* Input width/margin/alignment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.case-input {
+	width: 80px;
+}
+
+.short-input {
+	width: 60px;
+}
+
+.medium-input {
+	width: 300px;
+}
+
+.long-input {
+	width: 600px;
+}
+
+.Xlong-input {
+	width: 600px;
+}
+
+.county-input {
+	width: 100px;
+	margin: 10px;
+}
+
+#indent-text {
+	margin-left: 100px;
+}
+
+/* Text >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* Main Title */
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+/* Page Title */
+h2 {
+	font-size: 25px;
+	text-align: left;
+}
+/* Form Headers */
+h3 {
+	font-size: 14px;
+	text-align: center;
+}
+/* Form Titles */
+h4 {
+	font-size: 20px;
+	text-align: center;
+}
+/* Small Print */
+h5 {
+	font-size: 12px;
+	text-align: left;
+}
+
+h6 {
+	font-size: 25px;
+	text-align: right;
+}
+
+h7 {
+	float: right;
+}
+/* Page Title */
+h8 {
+	font-size: 20px;
+	text-align: left;
+	display: grid;
+}
+
+hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1.5px;
+	width: 100%;
+}
+
+/* By Id >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* DataEntry */
+#error_message_div {
+	padding: 0px;
+}
+
+#error_message {
+	font-size: 16px;
+	color: blue;
+	text-align: center;
+	width: 800px;
+	font-weight: bold;
+	height: 16px;
+	padding: 10px;
+}
+
+.inner_tabs, .faqs_tabs {
+	text-align: center;
+}
+
+.inner_tabs a, .faqs_tabs a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 9px;
+	border-radius: 5px;
+	margin: 0;
+}
+
+#case_index_top {
+	text-align: center;
+}
+
+#document-tracking-page, #evidence-page, #medication-inventory-page {
+	text-align: left;
+}
+
+/* Reports */
+#case-info {
+	text-align: center;
+}
+
+#new_filter table.tb input {
+	border: 1px solid #454545;
+}
+
+.report_input {
+	width:250px;
+}
+
+#cause_manner_pinned_report{
+	text-align: right;
+}
+
+/* Maintenance */
+.add_row_container {
+	display: none;
+}
+
+.update_row_container {
+	display: none;
+}
+
+.delete_row_container {
+	display: none;
+}
+
+#search-top {
+	float: right;
+}
+
+#search-bar {
+	width: 300px;
+	height: 35px;
+}
+
+#maintenance-editing {
+	float: right;
+	min-width: 535px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	text-align: right;
+}
+
+/* Forms */
+#blank-forms-select {
+	text-align: right;
+}
+
+/* Top Navigation and Dropdown Menus >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.navigation {
+	text-align: right;
+	vertical-align: middle;
+}
+
+.navigation a, .dropbtn1, .dropbtn2, .dropbtn3{
+	display: inline-block;
+	padding: 8px 12px;
+	border-radius: 3px;
+	text-decoration: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 1px solid #454545;
+	margin: 20px 2px;
+}
+
+.dropbtn1, .dropbtn2, .dropbtn3{
+	float: top;
+}
+
+.dropdown1, .dropdown2, .dropdown3 {
+	position: relative;
+	display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1, .dropdown-content2, .dropdown-content3 {
+	display: none;
+	position: absolute;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	padding: 5px;
+}
+/* Links inside the dropdown */
+.dropdown-content1 a, .dropdown-content2 a, .dropdown-content3 a {
+	padding: 5px;
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+	text-transform: uppercase;
+	border: none;
+	text-align: center;
+}
+/* Show Drowndown Content*/
+.show1, .show2, .show3 {
+	display: block;
+}
+/* Table CSS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+table.tb {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.tb th, .tb td {
+	padding: 5px;
+	border: 1px solid #454545;
+	text-align: right;
+}
+
+.tb th {
+	text-align: left;
+}
+
+.tb .th-count {
+	text-align: right;
+	background-color: #ffffff;
+}
+
+.document-tracking-table {
+	overflow-x: scroll;
+	margin-bottom: 10px;
+}
+
+.document-tracking-table input[type="text"], .document-tracking-table input[type="date"],
+	.document-tracking-table select {
+	width: 200px;
+	background-color: #ffffff;
+}
+
+.th-long {
+	width: 250px;
+}
+
+.th-num {
+	width: 50px;
+	max-width: 80px;
+	min-width: 50px;
+}
+
+.th-data-entry-num {
+	width: 20px;
+	max-width: 20px;
+	min-width: 20px;
+}
+
+/* Buttons >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.btn, .add-supp-report, .add-doc-track-button, .add-evidence-button,
+	.add-med-button, .user-option-button, .add-filter-button {
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid #454545;
+	border-radius: 5px;
+	height: 35px;
+}
+
+.add-supp-report, .add-filter-button{
+	margin-top: 10px;
+}
+
+.user-option-button {
+	width: 100px;
+}
+
+.todo_button, .user_option_button, .case_print_all_button  {
+	border: none;
+	background-color: transparent;
+	border-radius: 5px;
+}
+
+input[type=checkbox]:checked+input.strikethrough {
+	text-decoration: line-through;
+}
+
+#delete_new_event_button, #add_new_event_button {
+	width: 50px;
+}
+
+#save_button {
+	width: 140px;
+}
+
+#print_button, #save_button {
+	display: inline-block;
+}
+
+#print_button, #add-supp-report {
+	display: inline-block;
+}
+
+#case-info-add-button {
+	width: 280px;
+	height: 35px;
+}
+
+#data-entry-search-button {
+	width: 100px;
+	height: 35px;
+}
+/* Maintenence Buttons */
+#search-button {
+	width: 100px;
+	float: right;
+	margin: 10px;
+}
+
+#show-all-button {
+	width: 100px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+.user_option_button:focus {
+	outline: none;
+}
+/* Multiple Button Style */
+#bottom-buttons {
+	float: right;
+	margin-right: 5px;
+}
+
+#search-report-button {
+	margin-bottom: 10px;
+}
+
+#top_button {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 50px;
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; 
+	border-radius: 10px;
+	font-size: 18px;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+
+#case_list_search_button {
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+/* HOME >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+#home_webpage {
+	justify-content: center;
+}
+
+#home_webpage button:focus {
+	outline: none;
+}
+
+#add-task-button {
+	padding: 0px;
+	border: 0px;
+	background: transparent;
+}
+
+#previous_month, #month_year, #next_month {
+	display: inline-block;
+	background: transparent;
+}
+
+#todo_container {
+	float: left;
+	display: block;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+#todo_tasks input[type='text'] {
+	width: 100%;
+}
+
+#todo_container, #case_list {
+	display: inline-block;
+}
+
+#search_case_list {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	text-align: inline-block;
+	width: 100%;
+}
+
+#case_list {
+	margin: 5px;
+	width: 100%;
+}
+
+#case_table {
+	margin: 5px;
+	width: 100%;
+}
+
+#case_list_search_bar, #case_list_search_button {
+	float: right;
+}
+
+#home_title {
+	margin: 10px;
+	float: left;
+	margin-left: 25px;
+}
+
+/* FAQ SLIDESHOW >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+* {
+	box-sizing: border-box
+}
+
+.mySlides1, .mySlides2, .mySlides3, 
+.mySlides4, .mySlides5 {
+	display: none;
+	width: 100%;
+}
+
+img, video {
+	vertical-align: middle;
+	width: 100%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+html {
+    visibility: visible;
+    opacity: 1;
+}
