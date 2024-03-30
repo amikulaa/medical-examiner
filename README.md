@@ -20,7 +20,7 @@ medical-examiner
 ```
 
 ## 🎬 Demo
-https://github.com/amikulaa/medical-examiner/assets/142363956/48d7209a-b02d-40c5-b080-fa3d3598ca7e
+https://github.com/amikulaa/medical-examiner/assets/142363956/19cbd1b4-94d6-4704-8f7c-db5cbd0aea0b
 
 ## Features
 
